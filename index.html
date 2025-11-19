@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -9,10 +9,13 @@
     <body>
         
         <div class="container">
-            <h1>QR Code Generator</h1>
+            <h1>Create & Customize Your Dynamic QR code for FREE </h1>
+
+
+
             <form id="qr-form">
                 <input type="text" id="text-input" placeholder="Enter text or URL" required>
-                <button onClick="handleGenerateQrCode()" type="button" >Generate QR Code</button>
+                <button onClick="handleGenerateQrCode()" type="button">Generate QR Code</button>
             </form>
             <div id="qr-code"></div>
 
@@ -21,5 +24,95 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script> -->
         <script src="app.js"></script>
+    </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>QR Generator</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">QR Generator</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Resources</a></li>
+                <li><a href="#" class="login-btn">Login</a></li>
+                <li><a href="#" class="signup-btn">Sign Up</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            
+            <!-- Left Section -->
+            <div class="left">
+                
+                <!-- Tabs -->
+                <div class="tabs">
+                    <button class="tab active">Website</button>
+                    <button class="tab">Text</button>
+                    <button class="tab">PDF</button>
+                    <button class="tab">Images</button>
+                    <button class="tab">vCard Plus</button>
+                    <button class="tab">Video</button>
+                </div>
+
+                <!-- Step 1 -->
+                <div class="card">
+                    <h3>1. Complete the content</h3>
+                    <label>Enter your Website</label>
+                    <div class="input-group">
+                        <input type="text" placeholder="E.g. https://www.myweb.com/">
+                        <button>Generate</button>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <!-- <div class="card">
+                    <h3>2. Design your QR</h3>
+
+                    <div class="options">
+                        <button class="option active">Frame</button>
+                        <button class="option">Shape</button>
+                        <button class="option">Logo</button>
+                        <button class="option">Level</button>
+                    </div>
+
+                    
+                    <div class="frames">
+                        <div class="frame-item"></div>
+                        <div class="frame-item"></div>
+                        <div class="frame-item"></div>
+                        <div class="frame-item"></div>
+                        <div class="frame-item"></div>
+                        <div class="frame-item"></div>
+                    </div>
+                </div> -->
+
+            </div>
+
+            <!-- Right Section (QR Preview) -->
+            <div class="right">
+                <div class="preview-card">
+                <h3>3. Download your QR</h3>
+
+                <div class="qr-box">
+                    <div class="qr-placeholder"></div>
+                </div>
+
+                <button class="download-btn">Download QR</button>
+                </div>
+            </div>
+
+        </div>
+
     </body>
 </html>
