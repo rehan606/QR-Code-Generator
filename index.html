@@ -1,32 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>QR Generator</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        
-        <div class="container">
-            <h1>Create & Customize Your Dynamic QR code for FREE </h1>
-
-
-
-            <form id="qr-form">
-                <input type="text" id="text-input" placeholder="Enter text or URL" required>
-                <button onClick="handleGenerateQrCode()" type="button">Generate QR Code</button>
-            </form>
-            <div id="qr-code"></div>
-
-        </div>
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script> -->
-        <script src="app.js"></script>
-    </body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -45,9 +16,10 @@
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Resources</a></li>
-                <li><a href="#" class="login-btn">Login</a></li>
                 <li><a href="#" class="signup-btn">Sign Up</a></li>
             </ul>
+
+            
         </nav>
 
         <div class="container">
@@ -68,16 +40,16 @@
                 <!-- Step 1 -->
                 <div class="card">
                     <h3>1. Complete the content</h3>
-                    <label>Enter your Website</label>
+                    <label>Enter your Text or Link</label>
                     <div class="input-group">
-                        <input type="text" placeholder="E.g. https://www.myweb.com/">
-                        <button>Generate</button>
+                        <input id="text-input"  type="text" placeholder="Enter your text or link here" />
+                        <button onClick="handleGenerateQrCode()" type="button">Generate</button>
                     </div>
                 </div>
 
                 <!-- Step 2 -->
-                <!-- <div class="card">
-                    <h3>2. Design your QR</h3>
+                <div class="card">
+                    <h3>2. Design your QR ( Comming Soon ) </h3>
 
                     <div class="options">
                         <button class="option active">Frame</button>
@@ -95,24 +67,33 @@
                         <div class="frame-item"></div>
                         <div class="frame-item"></div>
                     </div>
-                </div> -->
+                </div>
+
+                
 
             </div>
 
             <!-- Right Section (QR Preview) -->
             <div class="right">
                 <div class="preview-card">
-                <h3>3. Download your QR</h3>
+                    <h3>3. Download your QR</h3>
 
-                <div class="qr-box">
-                    <div class="qr-placeholder"></div>
+                    <div class="qr-box">
+                        <div id="qr-code" class="qr-placeholder"></div>
+                    </div>
+
+                    <button class="download-btn">Download QR</button>
                 </div>
 
-                <button class="download-btn">Download QR</button>
+                <div class="developer-credit">
+                    <h5>Developed by <a href="https://www.linkedin.com/in/kh-rehan207/" target="_blank">Rehan</a></h5>
+                    
                 </div>
             </div>
 
         </div>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+        <script src="app.js"></script>
     </body>
 </html>
