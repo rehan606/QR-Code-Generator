@@ -20,8 +20,8 @@ const handleGenerateQrCode = () => {
             
         }); 
 
+        document.getElementById('text-input').value=""; // Clear input field
         alert("Successfully generated QR code!");
-        document.getElementById('text-input').value="";
 
     } 
     catch (error) {
