@@ -43,6 +43,9 @@ body {
   color: #4f6aff;
   text-decoration: none;
 }
+.logo a>span {
+  color: #818183;
+}
 .nav-links{
   display: flex;
   gap: 25px;
@@ -50,6 +53,11 @@ body {
 
 .nav-links li {
   list-style: none;
+  transition: all 0.3s ease;
+}
+
+.nav-links li:hover a {
+  color: blue;
 }
 .nav-links a {
   text-decoration: none;
@@ -78,7 +86,7 @@ body {
 
 .nav-right a {
   text-decoration: none;
-  color: #ffffff;
+  color: #ffffff; 
   background-color: var(--tab-active);
   padding: 8px 20px;
   border-radius: 100px; 
