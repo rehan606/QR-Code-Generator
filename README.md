@@ -1,6 +1,5 @@
 ## QR CodeGen | QR Code Generator
 
-
 QR Code Generator is My New Simple Project !
 আপনি কি আপনার টেক্সট বা যেকোনো লিংক থেকে এক ক্লিকে QR Code বানাতে চান?
 তাহলে আমার তৈরি এই QR Code Generator আপনার জন্যই!
