@@ -30,3 +30,4 @@ QR Code Generator is My New Simple Project !
 আপনাদের পরামর্শ থাকলে জানাতে ভুলবেন না।
 
 
+**Facebook** : kh.rehan207
