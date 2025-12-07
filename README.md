@@ -10,7 +10,6 @@ QR Code Generator is My New Simple Project !
 ✔️ Clean & Easy-to-Use Interface
 ✔️ Mobile-Friendly Design
 
-
 ## 🎨 Coming Soon (Under Development):
 
 ✨ QR Code Frame Customization —
