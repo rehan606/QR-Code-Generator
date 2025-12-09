@@ -5,6 +5,9 @@ QR Code Generator is My New Simple Project !
 তাহলে আমার তৈরি এই QR Code Generator আপনার জন্যই!
 
 
+**Project Link:** https://lnkd.in/gY2b3PQF
+
+
 ## 🔍 এতে যা যা করতে পারবেন:
 ✔️ যেকোনো Text / URL থেকে Instant QR Code Generate
 ✔️ High-Quality Download Option
@@ -25,7 +28,7 @@ QR Code Generator is My New Simple Project !
 👉 Generate চাপুন
 👉 Ready QR Code Download করে নিন!
 
-**Project Link:** https://lnkd.in/gY2b3PQF
+
 
 **Facebook** : [REHAN](https://www.facebook.com/kh.rehan207)
 
