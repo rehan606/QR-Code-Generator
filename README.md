@@ -5,7 +5,7 @@ QR Code Generator is My New Simple Project !
 তাহলে আমার তৈরি এই QR Code Generator আপনার জন্যই!
 
 
-**Project Link:** https://lnkd.in/gY2b3PQF
+**Project Link:** [Live Here](http://qrgen-qr-generator.netlify.app/)
 
 
 ## 🔍 এতে যা যা করতে পারবেন:
