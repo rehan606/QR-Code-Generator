@@ -27,9 +27,11 @@ QR Code Generator is My New Simple Project !
 
 **Project Link:** https://lnkd.in/gY2b3PQF
 
+**Facebook** : [REHAN](https://www.facebook.com/kh.rehan207)
+
 ধন্যবাদ ❤️
 আপনাদের পরামর্শ থাকলে জানাতে ভুলবেন না।
 
-**Facebook** : [REHAN](https://www.facebook.com/kh.rehan207)
+
 
 
