@@ -29,7 +29,6 @@ QR Code Generator is My New Simple Project !
 👉 Ready QR Code Download করে নিন!
 
 
-
 **Facebook** : [REHAN](https://www.facebook.com/kh.rehan207)
 
 ধন্যবাদ ❤️
